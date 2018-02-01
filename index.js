@@ -1,10 +1,10 @@
 
-function destructivelyAppendKitten(array,name){
-  array.push(name)
-  return array
+function destructivelyAppendKitten(name){
+  kittens.push(name)
+  return kittens
 }
 
-function destructivelyPrependKitten(array,name){
-  array.unshift(name)
-  return array
+function destructivelyPrependKitten(name){
+  kittens.unshift(name)
+  return kittens
 }
